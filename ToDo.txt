@@ -1,0 +1,25 @@
+meta/head
+SEO
+Licence
+SSL-certificaat
+
+Structuur
+	Home - B&B Vlaanderenstraat - B&B Tarbotstraat - Café - Restaurant - BosProject - Contact
+Browser tab icon
+
+hyperlinks: kleur
+Tekst
+Talen: engels, frans, duits
+ErrorPage
+Google Maps Service
+KMI widget?
+Foto's
+Elders op het web -> foto's Flickr
+Publishing
+
+Testen op alle browsers
+Versie zonder Javascript
+
+Contact: contactformulier ipv e-mailadres
+
+rename .jpg files

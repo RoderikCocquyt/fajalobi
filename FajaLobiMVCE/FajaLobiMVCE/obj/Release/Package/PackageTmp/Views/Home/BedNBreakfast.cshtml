@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "B&B";
+}
+@{ 
+    var korting = "Voor langere verblijven geldt 10% korting. Kinderen onder de 6 jaar gratis (mits minstens één volwassene op dezelfde kamer).";
+}
+
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex ml-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-lower">Faja Lobi</span>
+                        <span class="section-heading-upper">Vlaanderenstraat</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="~/img/faja8.jpg" alt="">
+            <div class="product-item-description d-flex mr-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">
+                        Neo-classicistisch pand met hoge plafonds en sfeervol interieur, gelegen in het hartje van Gent, op 100 meter van de Sint-Baafskathedraal. De kamers zijn ruim (25m², voor twee of drie personen) en hebben een eigen badkamer en een zithoek. U kan er ook zelf koffie of thee zetten.
+                        Vanuit de gezellige ontbijtruimte op de eerste verdieping kijkt u naar het stadsleven dat zich aan u voorbijtrekt. Centraler kan niet!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                @*<div class="bg-faded p-5 d-flex mr-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Delicious Treats, Good Eats</span>
+                        <span class="section-heading-lower">Bakery &amp; Kitchen</span>
+                    </h2>
+                </div>*@
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="~/img/faja11.jpg" alt="">
+            <div class="product-item-description d-flex ml-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">
+                        <em>Adres:</em> Faja Lobi, Vlaanderenstraat 2, 9000 Gent.<br />
+                        <em>Prijzen:</em> 1 persoon 70,00 euro, 2 personen 95,00 euro, 3 personen 120,00 euro, 4 personen 140,00 euro. @korting<br />
+                        Gratis wifi. Privé-parking: 5,00 euro/24u.<br />
+                        <em>Beschikbaarheid:</em> bekijk onze kalender op
+                        <a href="http://www.bedandbreakfast-gent.be/presentation/id/5708#hotelAvailability">Bed & Breakfast Gent</a>
+                        of geef ons een seintje via onze @Html.ActionLink("contactpagina", "Contact", "Home").
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex ml-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-lower">Faja Lobi</span>
+                        <span class="section-heading-upper">Tarbotstraat</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="~/img/fajatarbot1.jpg" alt="">
+            <div class="product-item-description d-flex mr-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">
+                        19de-eeuwse woning op 15 minuten wandelen van het centrum. De kamers zijn ruim (25m², voor twee of drie personen) en hebben een eigen badkamer en een zithoek. U kan er ook zelf koffie of thee zetten. Geniet van de rust van onze heerlijke stadstuin (110 m²) en gezellige ontbijtruimte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section">
+    <div class="container">
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                @*<div class="bg-faded p-5 d-flex mr-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Delicious Treats, Good Eats</span>
+                        <span class="section-heading-lower">Bakery &amp; Kitchen</span>
+                    </h2>
+                </div>*@
+            </div>
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="~/img/fajatarbot3.jpg" alt="">
+            <div class="product-item-description d-flex ml-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">
+                        <em>Adres:</em> Faja Lobi, Tarbotstraat 31, 9000 Gent.<br />
+                        Prijzen: 1 persoon 60,00 euro, 2 personen 75,00 euro, 3 personen 100,00 euro, 4 personen 120,00 euro. @korting<br />
+                        Gratis wifi. Parking Reep: 11,00 euro/24u.<br />
+                        Beschikbaarheid: bekijk onze kalender op
+                        <a href="http://www.bedandbreakfast-gent.be/presentation/id/5708#hotelAvailability">Bed & Breakfast Gent</a>
+                        of geef ons een seintje via onze @Html.ActionLink("contactpagina", "Contact", "Home").
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

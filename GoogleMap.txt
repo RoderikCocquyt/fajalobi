@@ -1,0 +1,23 @@
+https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+
+projectnaam: LobiLobi
+project-id: lobilobi-205721
+
+coordinaten: (http://www.geopunt.be)
+Vlaanderenstraat2:
+	WGS84:		51°03'04,40"NB - 3°43'42,78"OL	 
+	Web Mercator:	415 060,16 m - 6 630 359,42 m
+	Lambert72:	105 109,66 m - 193 644,61 m
+
+	51°03'05.3"N 3°43'43.3"E
+	51.051465, 3.728686
+Tarbotstraat 31:
+	WGS84:		51°02'43,24"NB - 3°44'27,94"OL	 
+	Web Mercator:	416 456,72 m - 6 629 318,62 m
+	Lambert72:	105 983,79 m - 192 983,24 m
+
+sleutel: AIzaSyDFtQ9gUZ2Q36gNQfS5HvXRJ82zNZIld58
+sleutelnaam: 20183005fajafaja
+
+Best practices for securely using API keys
+https://support.google.com/googleapi/answer/6310037
